@@ -1,0 +1,229 @@
+*
+{
+padding: 0px;
+margin: 0px;
+text-decoration: none;
+list-style: none;
+}
+
+body {
+background-image: url("img/Backgroundimage.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 1440px;
+height: 600px;
+}
+
+/*HEADER STYLING*/
+header
+{
+display: flex;
+width: 100%;
+height: 100px;
+z-index: 5000;
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+}
+
+header > .logo1{
+position: absolute;
+width: 200px;
+height: 100px;
+left: 0px;
+top: 0px;
+}
+
+header > .logo2{
+position: absolute;
+width: 100px;
+height: 38px;
+left: 203px;
+top: 28px;
+}
+
+.Header-links > ul {
+position: absolute;
+display: flex;
+flex-flow: row;
+align-items: center;
+width: 261px;
+height: 24px;
+left: 1249px;
+top: 38px;
+}
+
+.Header-links > ul > li {
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+}
+
+.Header-links > ul > li > a{
+color: #FFFFFF;
+padding-left: 43px;
+}
+
+.Header-links > ul > li > a:hover{
+opacity: 0.9;
+text-decoration: underline;
+}
+
+
+/*BODY TEXT STYLING*/
+.Body-text {
+position: absolute;
+width: 862px;
+height: 240px;
+left: 30px;
+top: 168px;
+z-index: 10;
+}
+
+h1 {
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 100px;
+line-height: 120px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+
+.Body-text-paragraph {
+position: absolute;
+width: 721px;
+height: 103px;
+left: 30px;
+top: 449px;
+z-index: 10;
+}
+
+p {
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 35px;
+color: #FFFFFF;
+}
+
+svg {
+position: absolute;
+left: -150px;
+top: 230px;
+}
+
+/*BUTTON-CTA STYLING*/
+.CTA-Text-btn {
+position: absolute;
+width: 483px;
+height: 130px;
+left: -7px;
+top: 600px;
+background: none;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 5px;
+color: #FFFFFF;
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 130px;
+cursor: pointer;
+z-index: 10;
+}
+
+.CTA-Text-btn:hover {
+background: #6C63FF;
+border: none;
+}
+
+.CTA-Text-btn > img {
+position: absolute;
+left: 5.04%;
+right: 73.71%;
+top: 28.50%;
+bottom: 26.92%;
+}
+
+/*BODY-SUBSCRIPTION FORM STYLING*/
+.Card-Subscription {
+
+position: absolute;
+width: 509px;
+height: 531px;
+left: 1021px;
+top: 168px;
+font-family: 'Lato', sans-serif;
+}
+
+.Card-Subscription > img {
+width: 100%;
+height: 323px;
+}
+
+.Card-Subscription > h3 {
+font-family: Lato;
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 150%;
+width: 100%;
+/* or 45px */
+color: #D19946;
+text-align: center;
+padding-top: 20px;
+}
+
+.Card-Subscription > .email-sub {
+max-width: 509px;
+margin-top: 32px;
+overflow: hidden;
+}
+
+.Card-Subscription > .email-sub input[type=text] {
+width: 509px;
+height: 53px;
+background: #F8F5F5;
+border: 1px solid #3A3A3D;
+box-sizing: border-box;
+border-radius: 3px;
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 150%;
+padding-left: 10px;
+}
+
+.Card-Subscription > .email-sub .Email-Sub-btn{
+width: 509px;
+height: 79px;
+background: #6C63FF;
+border-radius: 3px;
+text-align: center;
+color: white;
+cursor: pointer;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 150%;
+/* identical to box height, or 45px */
+color: #FFFFFF;
+margin-top: 10px;
+}
+
+.Card-Subscription > .email-sub .Email-Sub-btn:hover{
+opacity: 0.85;
+}
