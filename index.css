@@ -156,9 +156,8 @@ top: 28.50%;
 bottom: 26.92%;
 }
 
-/*BODY-SUBSCRIPTION FORM STYLING*/
+/*BODY-SUBSCRIPTION FORM-1 STYLING*/
 .Card-Subscription {
-
 position: absolute;
 width: 509px;
 height: 531px;
@@ -206,7 +205,7 @@ line-height: 150%;
 padding-left: 10px;
 }
 
-.Card-Subscription > .email-sub .Email-Sub-btn{
+.Card-Subscription > .email-sub .Email-Sub-btn {
 width: 509px;
 height: 79px;
 background: #6C63FF;
@@ -226,4 +225,123 @@ margin-top: 10px;
 
 .Card-Subscription > .email-sub .Email-Sub-btn:hover{
 opacity: 0.85;
+}
+
+
+/*BODY-SUBSCRIPTION FORM-2 STYLING*/
+.card-subscription2 {
+position: absolute;
+width: 435px;
+height: 551px;
+left: 1021px;
+top: 178px;
+background: #FFFFFF;
+box-shadow: 0px 4px 77px rgba(138, 0, 23, 0.5);
+border-radius: 5px;
+}
+
+.card-subscription2 > .card-header {
+width: 435px;
+height: 100px;
+left: 0px;
+right: 0px;
+top: 0px;
+background: #831226;
+border-radius: 5px 5px 0px 0px;
+}
+
+.card-subscription2 > .card-header >   .Logo-Theme2 {
+position: absolute;
+width: 200px;
+height: 100px;
+margin-left: 35px;
+}
+
+.card-subscription2 > .card-header > .Music-Theme2 {
+position: absolute;
+width: 100px;
+height: 38px;
+margin: 31px 65px 31px 259px;
+}
+
+.card-subscription2 > p {
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+color: #222224;
+padding: 30px 23.5px 30px 23.5px;
+}
+
+.card-subscription2 > h3 {
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 150%;
+text-align: center;
+/* or 30px */
+color: #831226;
+padding-bottom: 30px
+}
+
+
+.card-subscription2 > .email-sub2 {
+max-width: 388px;
+overflow: hidden;
+margin-left: 23.5px;
+margin-right: 23.5px;
+}
+
+.card-subscription2 > .email-sub2 input[type=text] {
+width: 388px;
+height: 40px;
+background: #F8F5F5;
+border: 1px solid #3A3A3D;
+box-sizing: border-box;
+border-radius: 3px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+padding-left: 10px;
+/* identical to box height, or 24px */
+color: #000000;
+display: flex;
+align-items: center;
+}
+
+.card-subscription2 > .email-sub2 > .subscribe-btn {
+width: 388px;
+height: 79px;
+margin-top: 10px;
+margin-bottom: 20px;
+background: #831226;
+border-radius: 3px;
+font-family: 'Lato', sans-serif;
+text-align: center;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 150%;
+/* identical to box height, or 45px */
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.card-subscription2 > .email-sub2 > .subscribe-btn:hover {
+opacity: 0.85;
+}
+.card-subscription2 > .email-sub2 > .T-n-C {
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #222224;
+padding: 0px 0px 37px 200.5px;
 }
